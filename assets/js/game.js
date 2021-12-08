@@ -3,6 +3,7 @@ var playerHealth = 100;
 var playerAttack = 10;
 var playerMoney = 10;
 
+
 var enemyName = "Roborto";
 var enemyHealth = 50;
 var enemyAttack = 12;
@@ -47,10 +48,7 @@ if (playerHealth <= 0) {
     window.alert("You need to choose a valid option. Try again!");
 }
 
-}
+};
 
 
 fight ();
-if (playerHealth > 0) {
-    console.log("Your player is still alive!");
-}
